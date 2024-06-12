@@ -1,0 +1,23 @@
+AWSのELB及びEC2を活用したサーバー、Route53を活用したドメイン配布経験
+
+UIS日榮新化
+
+OS는 윈도우10(Hyper-V 가상환경) 
+언어는 VB.net 데이터베이스는 A5:SQL Mk-2 
+
+microsoft visual studio를 사용해
+코팅회사 neion의 ERP 솔루션 수탁개발
+
+tortoise(SVN) 프로젝트 공유 형식 하에서의
+설계서 수정, 검수, 단체테스트, 유지 보수 경험
+
+OSはWindows10（Hyper-V仮想環境）
+言語は VB.net データベースは A5:SQL Mk-2
+
+microsoft visual studioを使って
+コーティング会社neionのERPソリューション受託開発
+
+tortoise(SVN)プロジェクト共有形式の下での
+設計書の修正、検収、団体テスト、メンテナンス経験
+
+git clone https://github.com/studying-developer/library-app.git

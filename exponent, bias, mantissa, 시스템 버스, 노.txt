@@ -1,0 +1,24 @@
+exponent, bias, mantissa, 시스템 버스, 노스브리지, 사우스브리지, CMOS
+
+해외정착지원금
+
+public class GenericBox<T> {
+
+	private T value;
+
+	public void set(T value) {
+		this.value = value;
+	}
+
+	public T get() {
+		return value;
+	}
+}
+
+public class BoxMain3 {
+
+	public static void main(String[] args) {
+		GenericBox<Integer> integerBox = new GenericBox<Integer>();
+		
+	}
+}
