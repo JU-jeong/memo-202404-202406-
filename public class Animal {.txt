@@ -1,0 +1,47 @@
+public class Animal {
+	private String name;
+	private int size;
+
+	public Animal(String name, int size) {
+		this.name = name;
+		this.size = size;
+	}
+
+	public void sound(){
+		System.out.println("sound like:" + this.name); 
+	}
+
+	@Override
+	public void toString(){
+		//실행부
+	}
+}
+
+package extends1.ex3;
+
+public class Car {
+	public void move() {
+	//실행부
+}
+
+public void openDoor() {
+	//실행부
+}
+
+//////////////////////////////////
+
+package extends1.overriding;
+
+public class GasCar extends Car {
+	//실행부
+}
+
+////////////////////////////////
+
+package extends1.overriding;
+
+public class ElectricCar extends Car {
+	//실행부
+
+
+}

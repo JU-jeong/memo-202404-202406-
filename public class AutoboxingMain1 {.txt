@@ -1,0 +1,16 @@
+public class AutoboxingMain1 {
+
+	public static void main(String[] args) {
+
+		int value = 7;
+		Integer boxedValue = Integer.valueOf(value);
+
+class EraserBox<T> {
+	public boolean instanceCheck(Object param) {
+		return param instanceof T;
+	}
+
+	public void create() {
+		return new T();
+	}
+}

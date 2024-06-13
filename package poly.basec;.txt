@@ -1,0 +1,40 @@
+package poly.basec;
+
+public class CastingMain1 {
+	public static void main(String[] args) {
+		Paraent poly = new Child();
+		//부모 변수가 자식 인스턴스 참조(다형적 참조)
+		Child child = poly;
+		//
+
+다형성을 이해하기 위해서는 크게 2가지 핵심 이론을 알아야 한다.
+다형적 참조
+메서드 오버라이딩
+
+Child child = (Child) poly // poly is parent
+Child child = (Child) x001
+Child child = x001
+
+Parent parent1 = new Child();
+Child child1 = (Child) parent1;
+
+Parent parent2 = new Parent();
+Child child2 = parent2;
+child2.childMethod();
+
+public class DecoUtil2 {
+
+	public 'static' String deco(String str) {
+		String result = blabla;
+		return result;
+	}
+}
+
+public static void main(String[] args) {
+	String s = "hello java";
+	String deco = DecoUtil2.deco(s);
+	
+	System.out.println("before: " + s);
+	System.out.println("after:" + deco);
+	}
+}
