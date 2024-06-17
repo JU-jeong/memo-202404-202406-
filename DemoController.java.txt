@@ -1,0 +1,32 @@
+DemoController.java
+demoApplication.java
+ServletInitializer.java
+
+SpringApplication.run(demoApplication.class, args);
+
+DemoController.java
+
+@Controller
+public class DemoController {
+	@ResponseBody
+	@RequestMapping("/")
+	public String home(){
+		System.out.println("Hello Boot!!");
+		return "Hello Boot";
+	}
+}
+
+function test() {
+	alert("thymeleaf 테스트입니다");
+}
+
+pom에 <dependency>설정
+
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-thymeleaf</artifactId>
+</dependency>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">

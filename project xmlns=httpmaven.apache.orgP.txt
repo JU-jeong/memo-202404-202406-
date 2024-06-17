@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+downloading external resources is disabled
+
+@RequestMapping("/hello.do")
+	public String hello(Model model){
+	System.out.println("안녕하세요");
+	model.addAttribute("message", "hello.html입니다.!");
+	return "hello";
+
+	
+        <dependency>
+	    <groupId>org.springframework.boot</groupId>
+              <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>  
+		
+      <dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>jstl</artifactId>
+	  </dependency>
+	  <dependency>
+	    <groupId>org.apache.tomcat.embed</groupId>
+	    <artifactId>tomcat-embed-jasper</artifactId>
+	    <scope>provided</scope>
+	  </dependency>
