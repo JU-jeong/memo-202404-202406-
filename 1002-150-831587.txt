@@ -1,0 +1,28 @@
+1002-150-831587
+
+공무원 실패
+
+들어가기 쉽다는 이야기는 괜찮은가?
+
+public static void main(String[] args) {
+	IntegerBox integerBox = new IntegerBox();
+	integerBox.set(10);
+	Integer integer = integerBox.get();
+	System.out.println("integer = " + integer);
+
+	StringBox stringBox = new StringBox();
+	StringBox.set("hello");
+	String str = stringBox.get();
+	System.out.println("str = " + str);
+	}
+}
+
+public class IntegerBox {
+	private Integer value;
+
+	public void set(Integer value) {
+		this.value = value;
+	}
+}
+
+public clas

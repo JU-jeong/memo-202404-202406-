@@ -1,0 +1,29 @@
+public class Parent {
+	public int publicValue;
+	protected int protectedValue;
+	int defaultValue
+	private int privateValue;
+
+	public void publicMethod() {
+		System.lout.print("Parent.publicMethod");	
+	}
+
+	protected void protectedMethod() {
+		System.out.println("Parent.protectedMethod");
+	}
+
+	default void defaultMethod() {
+		System.out.println("Parent.defaultMethod");
+	}
+
+	private void privateMethod() {
+		System.out.println("Parent.privateMethod");
+	}
+
+	public void printEmAll() {
+		System.out.println(publicMethod + protectedMethod + defaultMethod + privateMethod);
+	}
+
+	protectedMehtod();
+	defaultMethod();
+}
