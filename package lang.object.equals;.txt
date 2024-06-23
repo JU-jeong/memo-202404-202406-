@@ -1,0 +1,24 @@
+package lang.object.equals;
+
+public class UserV2{
+	private String id ;
+
+	public UserV2(String id) {
+		this.id = id;
+}
+
+	@Override
+	public boolean equals(Object obj) {
+		UserV2 user = (UserV2) obj;
+		return id.equals(user.id);
+	}
+}
+
+
+어떤 안건이라도 무키앗떼 이쿠
+
+인프라//네트워크
+
+전직이유 - 한국인 빠름
+
+페이스 혼자하느라

@@ -1,0 +1,29 @@
+240624
+
+System.out.println("--index 변경 : 0(1) --");
+arr[2] = 10;
+System.out.println(Arrays.toString(arr));
+
+System.out.println("--index 조회: 0(1) --");
+System.out.println("arr[2] = " + arr[2]);
+
+System.out.println("--배여
+
+실행결과
+
+index입력
+1 2 3 0 0
+
+index변경
+1 2 10 0 0 
+
+index조회
+arr[2] = 10
+
+배열 검색 0(n)
+1 2 10 0 0
+arr0 1
+arr1 2
+arr2 10
+
+tlf
